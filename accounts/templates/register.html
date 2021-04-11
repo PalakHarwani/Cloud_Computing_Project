@@ -1,0 +1,11 @@
+<body>
+	<form action="userdata" method="GET">
+		{% csrf_token %}
+		<input type="text" name="first" placeholder="First Name"> <br>
+		<input type="text" name="last" placeholder="Last Name"> <br>
+		<input type="text" name="user" placeholder="User Name"> <br>
+		<input type="password" name="pass" placeholder="Password"> <br>
+		<input type="email" name="email" placeholder="Email ID"> <br>
+		<input type="submit" name="submit">
+	</form>
+</body>

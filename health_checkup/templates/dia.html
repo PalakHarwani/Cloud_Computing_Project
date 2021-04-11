@@ -1,0 +1,17 @@
+<head>
+	Your bmi is {{bmi}}. <br>
+	{% ifequal obe 0 %}
+	You are underweight. <br>
+	{% endifequal %}
+	{% ifequal obe 1 %}
+	You are overweight. <br>
+	{% endifequal %}
+	{% ifequal obe 2 %}
+	You are normal weight. <br>
+	{% endifequal %}
+	You have diabetes with {{dia}}% probability. <br>
+	You have typhoid with {{typ}}% probability.<br>
+	You have heart attack with {{htk}}% probability.<br>
+	You have anemia with {{ane}}% probability.<br>
+	You have dengue with {{den}}% probability.<br>
+</head>

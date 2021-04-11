@@ -1,0 +1,10 @@
+<h2>Your history</h2>
+
+{% for item in data %}
+<h3>Health details on {{item.time}}</h3> <br>
+	Age: {{item.age}}  Height: {{item.hei}}  Weight: {{item.wei}}  BP: {{item.bp}}  Sugar: {{item.sug}}  Haemoglobin count: {{item.hae}}
+<br>
+Report probablities <br>
+	Diabetes: {{item.dia}}  Typhoid: {{item.typ}}  Heart attack: {{item.hea}}  Anemia: {{item.ane}}  Dengue: {{item.den}}
+<hr>
+{% endfor %}
